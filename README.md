@@ -1,5 +1,11 @@
 # Time Calculator
 
+Time calculator is one of the challenges for freeCodeCamp's Scientific Computing with Python track.
+
+Check the [REPL](https://replit.com/@lu-carvalho/time-calculator#time_calculator.py).
+
+### Challenge Description
+
 Write a function named add_time that takes in two required parameters and one optional parameter:
 
 a start time in the 12-hour clock format (ending in AM or PM)
@@ -13,20 +19,22 @@ If the function is given the optional starting day of the week parameter, then t
 
 Below are some examples of different cases the function should handle. Pay close attention to the spacing and punctuation of the results.
 
+```
 add_time("3:00 PM", "3:10")
-# Returns: 6:10 PM
+Returns: 6:10 PM
 
 add_time("11:30 AM", "2:32", "Monday")
-# Returns: 2:02 PM, Monday
+Returns: 2:02 PM, Monday
 
 add_time("11:43 AM", "00:20")
-# Returns: 12:03 PM
+Returns: 12:03 PM
 
 add_time("10:10 PM", "3:30")
-# Returns: 1:40 AM (next day)
+Returns: 1:40 AM (next day)
 
 add_time("11:43 PM", "24:20", "tueSday")
-# Returns: 12:03 AM, Thursday (2 days later)
+Returns: 12:03 AM, Thursday (2 days later)
 
 add_time("6:30 PM", "205:12")
-# Returns: 7:42 AM (9 days later)
+Returns: 7:42 AM (9 days later)
+```
